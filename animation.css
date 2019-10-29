@@ -1,0 +1,33 @@
+.test{
+    width: 140px;
+    height: 70px;
+    background: green;
+    border-radius: 100px/50px;
+    position : absolute;
+    left: 10px;
+    top: 10px;
+    animation: 10s back linear; 
+}
+.test2{
+    width: 140px;
+    height: 70px;
+    background: green;
+    border-radius: 100px/50px;
+    position : absolute;
+    left: 10px;
+    top: 550px;
+    animation: 10s back2 linear;
+}
+
+@keyframes back {
+  0% { top: 10px; left: 10px;}
+  30%{ top:530px; left: 1250px; transform: rotate(360deg) }
+  50%{ top: 250px; left: 1250px;
+  }
+}
+@keyframes back2 {
+  0% { top: 550px; left: 10px;}
+  30%{ top:10px; left: 1250px; transform: rotate(360deg) }
+  50%{ top: 250px; left: 1250px;
+  }
+}
